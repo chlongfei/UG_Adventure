@@ -1,0 +1,98 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "start": "true",
+        "name": "the reception desk",
+        "short_description": "This is the reception area of the office",
+        "long_description": "The reception area usually has as person behind the desk to let people in and collect mail",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "N"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "the bullpen",
+        "short_description": "Wide open space filled with cubicles",
+        "long_description": "Doesn't look much fun, everything is grey and gloomy here. Seems like someone's still working",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "S"
+          },
+          {
+            "id": 102,
+            "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "the lounge",
+        "short_description": "a staff hangout area",
+        "long_description": "wide area brighter than the bullpen, there are a few couches and a TV here",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "down"
+          },
+          {
+            "id": 103,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "closet",
+        "short_description": "dark storage closet",
+        "long_description": "dark janitors closet for storing cleaning stuff",
+        "entrance": [
+          {
+            "id": 102,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "pen",
+        "desc": "a blue ball point pen",
+        "tossable":true
+      },
+      {
+        "id": 2,
+        "name": "key",
+        "desc": "a key, looks like it opens a padlock",
+        "tossable": true
+      }
+      {
+        "id": 3,
+        "name": "coat",
+        "desc": "a cleaners coat",
+        "wearable": true
+      }
+    ]
+  }
+}
