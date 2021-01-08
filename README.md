@@ -1,13 +1,7 @@
-#Homework Assignment 03
+# Simplified Text Based Adventure Game
+*based on the 1976 William Crowther video game Colossal Cave Adventure*
 
-
-## Author Information
-
-* Name: LONG FEI CHEN
-* Email: LONGFEI@UOGUELPH.CA
-* Student ID: 1058592
-
-## How to operate your program
+## How to operate the program
 
 To run the program, execute the commands **mvn compile exec:java** this will compiles and execute the graphical
 interface for the program.
@@ -38,6 +32,9 @@ course, except where specific permission has been granted.  Finally, I certify t
  or otherwise plagiarised the work of other persons.
  
 ## Citation of Resources Used
-Mountain in Compass Rose image used as program icon and welcome screen.
-(src = https://www.istockphoto.com/ca/vector/mountain-icon-gm841404182-137209585)
+[Mountain in Compass Rose image used as program icon and welcome screen (istockphoto.com)](https://www.istockphoto.com/ca/vector/mountain-icon-gm841404182-137209585)
 
+---
+
+### Integrity Notice
+This repository (repo) was created as part of academic course work. No parts of this repo shall be reproduced without citation and/or owner consent. Contact information can be found at repo owner profile.
